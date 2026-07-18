@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GasGuard - Real-time Monitoring System</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <h1>GasGuard <span class="subtitle">Real-time Gas Leak Detector</span></h1>
+    <div id="alertBox">SAFE</div>
+    <p>Current Gas Value: <span id="gasValue">0</span></p>
+    <button id="muteBtn" class="mute-btn">Mute Buzzer</button>
+    <div id="chartContainer">
+        <canvas id="gasChart"></canvas>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
